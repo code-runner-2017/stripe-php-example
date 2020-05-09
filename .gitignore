@@ -3,3 +3,4 @@
 /vendor
 /composer.lock
 /php-cli.ini
+.idea
