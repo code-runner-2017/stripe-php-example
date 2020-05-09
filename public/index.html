@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title data-i18n="title"></title>
+    <meta name="description" content="A demo of Stripe Payment Intents" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <!-- Load Stripe.js on your website. -->
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="./script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="sr-root">
+      <div class="sr-main">
+        <section class="container">
+          <div>
+            <h2>PIETRO STORE</h2>
+            <div class="pasha-image">
+              <img
+                src="https://picsum.photos/280/320?random=4"
+                width="140"
+                height="160"
+              />
+            </div>
+          </div>
+
+          <button id="submit">
+              BUY FOR 10$
+          </button>
+        </section>
+        <div id="error-message"></div>
+      </div>
+    </div>
+  </body>
+</html>
